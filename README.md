@@ -1,4 +1,4 @@
-# Mao Zedong Sort: A (Cultural) Revolutionary Approach to Sort in O(1) Complexity
+# MaoSort: A (Cultural) Revolutionary Approach to Sort in O(1) Complexity
 
 
 ## 1 Introduction
