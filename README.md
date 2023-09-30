@@ -58,13 +58,13 @@ In this section, we give a specific example of MaoSort.
 
 (1966, 1954, 1967, 1968, 1955, 1969, 1956, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1959, 1960, 1961)
 
-If we have an array like this, "Food Quota" will be set to 14.
+If we have an array like this, "Food Quota" will be set to 14. In the first iteration, the algorithm does nother since it is the first element.
 
-Starting from the second element, since 1954 is smaller than 1966, it will be treated as a "counter-revolutionary class" and droped. Then, we get
+Then goes the second element, "Food Quota" will decease by 1, becomes 13. Since 1954 is smaller than 1966, it will be treated as a "counter-revolutionary class" and droped. Then, we get
 
 (1966, 1967, 1968, 1955, 1969, 1956, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1959, 1960, 1961)
 
-and "Food Quota" will decease by 1, becomes 13. This time, 1967 is greater than 1966, we keep it and moving on. After 14 iteration, "Food Quota" will become 0 when we reaches 1959, so all the elements after this point will be dropped.
+and "Food Quota" will decease by 1, becomes 12. This time, 1967 is greater than 1966, we keep it and moving on. After 14 iteration, "Food Quota" will become 0 when we reaches 1959, so all the elements after this point will be eliminated.
 
 The final result is 
 
